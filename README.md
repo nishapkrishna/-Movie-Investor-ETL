@@ -1,4 +1,4 @@
-# ETL-Project
+# Movie Investor ETL project 
 2/16/19
 University of MN Data Visualization and Analytics Boot Camp
 Cohort 2
