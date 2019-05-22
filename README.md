@@ -19,30 +19,42 @@ Tables Created:
 
 •	Movies_metadata: This table contains the following columns/characteristics:
  
-  	Id, movie id, homepage, original title, overview, popularity rating, release date, runtime, tagline, and working title of each film.
+   	Id, movie id, homepage, original title, overview, popularity rating, release date, runtime, tagline, and working title of each          film.
 
 •	Movies_finance: This table stored financial data such as budget and revenue numbers for each film. It contains the following:
   
-  	Movie id, imdb id,  and revenue for each film.
+   	Movie id, imdb id,  and revenue for each film.
 
 •	Genre: Describes the genre categories each film falls within. Columns in this table include:
-  	Id, movie id, genre id
+   
+   	Id, movie id, genre id
+
 •	Genres_master: Contains a master list of all genres and the specific genre id.
 •	Movies_language: Displays the original language in which the movie was filmed. The table is comprised of the following:
-  	Id, movie id, movie language, and movie language type.
+  
+   	Id, movie id, movie language, and movie language type.
+
 •	Production Company: Displays the production company or companies for each film. Table components consist of the following:
-  	Production company id and production company name.
+
+   	Production company id and production company name.
+
 •	Production Country/Location: Created to store the shoot location(s) for each movie. Components for this table include the following:
-  	Id, movie id, country name, country abbreviation.
+   
+   	Id, movie id, country name, country abbreviation.
+
 •	Cast: Created to store actors associated with each film. It consists of the following:
-  	Id, movie id, cast Id, movie character, actor id, actor name, gender.
+  
+   	Id, movie id, cast Id, movie character, actor id, actor name, gender.
 
 •	Crew: Created to store names of the crew members (e.g., director, producer) for each film
-  	Contains: id, movie id, department, job title, crew name, gender.
+  
+   	Contains: id, movie id, department, job title, crew name, gender.
 
 •	Keywords: This table was built to store keywords associated with each film. 
-  	Components include id, movie id, Keyword id, and keyword name.
-  	For example, if one wanted to do a query to display movies associated with car chases.
+ 
+   	Components include id, movie id, Keyword id, and keyword name.
+   	For example, if one wanted to do a query to display movies associated with car chases.
+
 •	Links: houses the link id’s for both IMDB and TMDB, and consists of the movie id, imdb id, and tmdb id.
 
 
