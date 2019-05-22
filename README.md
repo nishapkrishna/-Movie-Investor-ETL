@@ -36,7 +36,7 @@ Tables Created:
 
 •	Production Company: Displays the production company or companies for each film. Table components consist of the following:
 
-    	Production company id and production company name.
+    	Production company id and production company name. 
 
 •	Production Country/Location: Created to store the shoot location(s) for each movie. Components for this table include the following:
    
