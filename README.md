@@ -18,9 +18,13 @@ Data Sources: We used the following csv files to create our database.
 Tables Created:
 
 •	Movies_metadata: This table contains the following columns/characteristics:
+ 
   	Id, movie id, homepage, original title, overview, popularity rating, release date, runtime, tagline, and working title of each film.
+
 •	Movies_finance: This table stored financial data such as budget and revenue numbers for each film. It contains the following:
+  
   	Movie id, imdb id,  and revenue for each film.
+
 •	Genre: Describes the genre categories each film falls within. Columns in this table include:
   	Id, movie id, genre id
 •	Genres_master: Contains a master list of all genres and the specific genre id.
